@@ -74,17 +74,39 @@ a {
 
 /* Styles content in body */
 
-#body-content {
-    min-height: calc(100vh - 264px);
-}
-  
+
 .content-box {
     background-color: #fff;
 	padding: 30px;
-	border: 1px solid #ddd;
+    border: 1px solid #ddd;
+    height: 300px
 }
 
-h1, h2 {
+h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: left;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
     color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    font-size: 30px;
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 30px;
+}
+
+/* Styles footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+    width: 100%;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
 }
