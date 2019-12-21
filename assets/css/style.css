@@ -72,10 +72,10 @@ a {
 	color: #777777;
 }
 
-/* Styles content in body */
+/* Styles content in main body */
 
 
-.content-box {
+#content-box {
     background-color: #fff;
 	padding: 30px;
     border: 1px solid #ddd;
@@ -109,4 +109,24 @@ footer {
     width: 100%;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
+    vertical-align: middle;
+    font-size: 10px;
+    color: #ccc;
+}
+
+/* Styles portfolio gallery */
+
+.gallery {
+    float: left;
+    position: relative;
+    overflow: auto;
+    width: 250px;
+    margin: 20px 0 25px;
+}
+
+#gallery-box {
+    background-color: #fff;
+	padding: 30px;
+    border: 1px solid #ddd;
+    height: 600px;
 }
