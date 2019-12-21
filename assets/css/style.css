@@ -4,16 +4,29 @@
 
 
 body {
+    background-image: url("../images/papyrus.png");
+    background-repeat: repeat;
+}
+
+/* Styles header and body containers */
+
+.container {
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
     width: 960px;
 }
 
-.header-box {
+/* Styles main header/nav bar */
+
+header {
     border-bottom: 2px solid #cccccc;
     background-color: #ffffff;
     height: 60px;
+    margin-bottom: 40px;
 }
 
-header {
+#brand {
     background-color: #4aaaa5;
     color: #ffffff;
     font-size: 1.5em;
@@ -22,7 +35,7 @@ header {
     width: 250px;
     height: 100%;
     float:left;
-    line-height:30px;
+    line-height:28px;
     vertical-align: middle;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -59,21 +72,19 @@ a {
 	color: #777777;
 }
 
+/* Styles content in body */
 
-.body-box {
-    clear: both;
-    overflow: auto;
-    margin: 0 auto;
-    background-image: url("/assets/images/papyrus.png");
-    height: 600px;
-    width: 100%;
-    border-bottom: 5px solid #4aaaa5;
+#body-content {
+    min-height: calc(100vh - 264px);
+}
+  
+.content-box {
+    background-color: #fff;
+	padding: 30px;
+	border: 1px solid #ddd;
 }
 
-section	{
-	background-color: #ffffff;
-	float: left;
-	color: #777777;
-    border: 2px solid #dddddd;
-    width:100%;
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
 }
